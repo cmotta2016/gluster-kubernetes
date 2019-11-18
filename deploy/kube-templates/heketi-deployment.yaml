@@ -31,6 +31,10 @@ spec:
     matchLabels:
       glusterfs: heketi-pod
       heketi: pod
+  selector:
+    matchLabels:
+      glusterfs: heketi-pod
+      heketi: pod
   template:
     metadata:
       name: heketi
